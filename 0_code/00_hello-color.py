@@ -19,6 +19,11 @@ print(colored(
 	attrs = ['bold','underline']))
 
 print(colored(
+	'<3<3<3<3<3<3', "grey" , 'on_magenta', 
+	attrs =['bold','reverse']
+	))
+
+print(colored(
 	'Hello, World!', 'magenta', 
 	attrs = ['bold','blink']
 	))
@@ -26,4 +31,9 @@ print(colored(
 print(colored(
 	'Hello, World!', 'magenta', 
 	attrs =['bold','reverse', 'blink']
+	))
+
+print(colored(
+	'<3<3<3<3<3<3', 'magenta', 
+	attrs = ['bold']
 	))
