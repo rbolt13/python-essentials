@@ -86,13 +86,15 @@ class TerminalScribe:
         self.canvas.print()
         time.sleep(self.framerate)
 
-# Ask user for an integer
+# Ask user for an integer.
 print("Please enter an integer to represent the degree you'd like the diagnol to be drawn at.")
 deg = int(input())
 
+# Canvas and scribe assignment. 
 canvas = Canvas(30, 30)
 scribe = TerminalScribe(canvas)
 
+# Draw given angle on canvas. 
 scribe.setDegrees(deg)
 for i in range(30):
     scribe.forward()
