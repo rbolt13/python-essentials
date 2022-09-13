@@ -15,7 +15,8 @@ Attributes: blod, dark, underline, blink, reverse,
 		and concealed
 '''
 print(colored(
-	'This file uses the termcolor package to print "Hello World" in flashing colors.', 'blue', 'on_yellow', 
+	'This file uses the termcolor package to print "Hello World" in flashing colors.', 
+	'blue', 'on_yellow', 
 	attrs = ['bold','underline']))
 
 print(colored(
