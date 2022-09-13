@@ -36,3 +36,7 @@ python 02_draw-heart.py
 python 03_draw-angle.py
 ```
 
+```
+python 04_heart-function.py
+```
+
