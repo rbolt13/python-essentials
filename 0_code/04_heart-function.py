@@ -94,7 +94,7 @@ class TerminalScribe:
 # Asign canvas a Canvas size 30X30.
 canvas = Canvas(30, 30)
 
-# Scribe <3 function. 
+# The scribes that make up the <3. 
 scribes = [
     # upper right V
     {'degrees': 45, 'position': [15,10], 'instructions': [
